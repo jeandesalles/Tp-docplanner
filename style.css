@@ -28,7 +28,7 @@ header{
    justify-content: space-around;
    align-items: center;
    padding: 8px;
-   background-color: white;
+   background-color: wheat;
    width: 100%;
    position: fixed;
    top: 0px;
@@ -160,4 +160,14 @@ nav ul li .About-us{
    grid-template-rows: repeat(3 ,1fr);
    grid-template-columns: repeat(4 ,1fr);
    padding: 20px;
+}
+.destination{
+   background-color: #747474;
+   display: grid;
+   /* grid-template-rows: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr; */
+   max-width: 1200px;
+   height: max-content;
+ 
+
 }
