@@ -25,13 +25,15 @@ letter-spacing: 1px;
 }
 header{
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
    align-items: center;
-   padding: 8px;
-   background-color: wheat;
+   padding: 20px 70px;
+   background-color: white;
+   border: 0.1px solid #fff;
    width: 100%;
    position: fixed;
-   top: 0px;
+   top: 0;
+   z-index: 10;
 }
 .header-logo{
    display: flex;
@@ -52,6 +54,7 @@ nav ul{
    display: flex;
    gap: 10px;
    list-style: none;
+   align-items: center;
 }
  ul li a{
    text-decoration: none;
@@ -123,7 +126,7 @@ nav ul li .About-us{
    justify-content: space-around;
 }
 .section2-2:hover{
-   opacity: 0.8;
+   opacity: 0.8; 
 } 
 
 .section2-3{
@@ -140,7 +143,7 @@ nav ul li .About-us{
    opacity: 0.8;
 } 
 .section3{
-   border: 1px solid red;
+   /* border: 1px solid red; */
    display: flex;
    align-items: center;
    justify-content: space-between;
@@ -161,13 +164,54 @@ nav ul li .About-us{
    grid-template-columns: repeat(4 ,1fr);
    padding: 20px;
 }
+.section4{
+   background-image: url('');
+}
 .destination{
-   background-color: #747474;
+   /* background-color: #747474; */
+   display: flex;
+   gap: 30px;
+   flex-wrap: wrap;
+   padding-left: 8%;
+}
+.destination-1{
+   text-align: center;
+   padding: 70px;
+   /* border: 2px solid; */
+   width: 600px;
+   margin: 50px auto;
+}
+.destination-1 h2{
+   color: #00b39b;
+}
+.section4{
+   display: flex;
+   justify-content: space-between;
+   gap: 15%;
+   /* border: 2px solid red; */
+   height:500px ;
+}
+.section4-2{
    display: grid;
-   /* grid-template-rows: 1fr 1fr 1fr;
-   grid-template-columns: 1fr 1fr 1fr; */
-   max-width: 1200px;
-   height: max-content;
- 
-
+   grid-template-columns: 1fr 1fr;
+}
+.gauche{
+   display: grid;
+   grid-template-rows: 1fr 1fr;
+   row-gap: 20px;
+}
+.gauche1{
+   /* border: 1px solid green; */
+   width: 40%;
+   height: 40%;
+}
+.section5{
+   text-align: center;
+   margin: 60px 0;
+}
+footer{
+   text-align: center;
+   background-color: #ffff;
+   border-top: 1px solid whitesmoke;
+   padding-top: 20px ;
 }
